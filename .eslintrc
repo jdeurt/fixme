@@ -1,0 +1,20 @@
+{
+    "root": true,
+    "extends": ["@react-native-community", "@jdeurt/eslint-config/react"],
+
+    "rules": {
+        "unicorn/prefer-module": "off",
+        "sort-imports": "off",
+        "@typescript-eslint/no-unsafe-assignment": "off",
+        "react-native/no-inline-styles": "off"
+    },
+
+    "overrides": [
+        {
+            "files": ["App.tsx"],
+            "rules": {
+                "unicorn/filename-case": "off"
+            }
+        }
+    ]
+}
